@@ -55,24 +55,27 @@ footer{
 }
 
 .bg-img--version--1{
-    background-image: url('https://i.redd.it/ndfud8kljmky.jpg');
+    background-image: url('https://images.wallpaperscraft.com/image/pier_promenade_sea_159523_3840x2400.jpg');
 }
 
 .bg-img--version--2{
-    background-image: url('https://wallpaperaccess.com/full/1907445.jpg');
+    background-image: url('https://images.wallpaperscraft.com/image/pier_dock_boat_136094_3840x2400.jpg');
 }
 
 .bg-img--version--3{
-    background-image: url('https://mcdn.wallpapersafari.com/medium/6/33/hMKTbp.png');
+    background-image: url('https://images.wallpaperscraft.com/image/pier_dock_sea_dusk_shore_118549_3840x2400.jpg');
 }
 
 .bg-img--version--4{
     background-image: url('https://blog.handtalk.me/wp-content/uploads/2018/07/053-imagem-post-alt.png');
 }
 
+.bg-img--version--5{
+    background-image: url('https://images.wallpaperscraft.com/image/code_text_colorful_140555_1280x720.jpg');
+}
+
 
 .img {
-    padding: 5px;
     width: 100%;
     height: 50vh;
   }
@@ -80,6 +83,7 @@ footer{
 
 .container-header{
     text-align: center;
+    border-bottom: 1px solid  #9000c5;
 }
 .content-default{
     padding: 20px;
@@ -134,7 +138,7 @@ footer{
     left: 0px;
     top:30%;
     padding: 15px 5px 5px 15px;
-    width: 80px;
+    width: 36px;
     height: 250px;
     background: #9000c5;
     border-radius: 0 15px 15px 0;
@@ -144,11 +148,16 @@ footer{
 
 }
 
+.video{
+    width: 70%;
+    height: 400px;
+}
+
 .content-top--button{
     position: fixed;
     right: 10px;
     bottom: 10px;
-    background-color:#FB00CA;
+    background-color:#9000C5;
     border-radius: 100px;
     padding: 10px;
     width: 40px;
@@ -158,7 +167,7 @@ footer{
 }
 
 .content-top--button:hover{
-    background-color:  #9000C5;
+    background-color:  #FB00CA;
     transition: 1s;
 }
 
@@ -189,6 +198,14 @@ i{
     text-align: center;
 }
 
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 20px;
+}
+
+
+
 
 .bg-color--gray {
     background-color: #f1f1f1;
@@ -212,4 +229,109 @@ i{
 .bg-color--blue {
     background-color: #005EFF;
     color: #FFF;
+    
 }
+
+/*Media Query */
+@media only screen and (max-width: 569px) {
+    .content-flex {
+        display: flow-root;
+    }
+
+    .flex-wrap{
+        width: 100%;
+    }
+    
+    .container{
+        max-width: 100%;
+    }
+
+    .content-left--main{
+        position: fixed;
+        left: 0px;
+        top:30%;
+        padding: 15px 5px 5px 15px;
+        width: 34px;
+        height: 250px;
+        background: #9000c5;
+        border-radius: 0 15px 15px 0;
+        display: grid;
+        z-index: 3;
+        box-shadow: 13px 7px 34px -12px rgba(0,0,0,0.75);
+    
+    }
+
+    .img {
+        width: 100%;
+        height: 36vh;
+    }
+
+    .video{
+        width: 100%;
+        height: 400px;
+    }
+
+    .content-default {
+        padding: 0;
+    }
+
+    .container-header{
+        text-align: center;
+        border-bottom: 0;
+    }
+
+    
+}
+
+@media only screen and (max-width: 800px){
+   
+    .content-flex {
+        display: flow-root;
+    }
+
+    .flex-wrap{
+        width: 100%;
+    }
+    
+    .container{
+        max-width: 100%;
+    }
+
+    .video{
+        width: 100%;
+        height: 400px;
+    }
+
+    .content-left--main{
+        position: fixed;
+        left: 0px;
+        top:30%;
+        padding: 15px 5px 5px 15px;
+        width: 34px;
+        height: 250px;
+        background: #9000c5;
+        border-radius: 0 15px 15px 0;
+        display: grid;
+        z-index: 3;
+        box-shadow: 13px 7px 34px -12px rgba(0,0,0,0.75);
+    
+    }
+
+    .content-default {
+        padding: 0;
+    }
+
+    .container-header{
+        text-align: center;
+        border-bottom: 0;
+    }
+
+   
+}
+
+@media only screen and (min-width: 1382px){
+}
+
+
+    
+
